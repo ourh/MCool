@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 03 14:52:50 2017
+
+@author: LIUHC4
+"""
+# solved: 1)Correlations: T_hp; 4) PHECycle: Tsat; 2)Preconditioners: HumAir_Single; 
+# unsolved:
+##############  
+############# 3)EvapTest, FinCorrelations: TubesVals instance has no attribute 'ID'
+
+# PHECycle:
+# ValueError: CoolProp error: Pseudo-pure fluids cannot use temperature-quality as inputs if Q is not 1 or 0 :: inputs were:"H","T",2.7000000000000000e+02,"Q",2.0000000000000001e-01,"R410A"
